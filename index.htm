@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Whiteboard</title>
+</head>
+<body>
+    <div class="container">
+        <canvas id="canvas"></canvas>
+        <div class="btns">
+            <button type='button' class='undo'>
+                <img src='./assets/undo.svg' alt='undo' />
+            </button>
+            <button type='button' class='redo'>
+                <img src='./assets/redo.svg' alt='redo' />
+            </button>
+            <button type='button' class='clear'>
+                <img src='./assets/delete.svg' alt='clear' />
+            </button>
+            <button type='button' class='erase'>
+                <img src='./assets/eraser.svg' alt='eraser' />
+            </button>
+
+            <div class="color red">
+                <img src='./assets/pencil.svg' alt='pencil' />          
+             </div>
+            <div class="color blue">
+                <img src='./assets/pencil.svg' alt='pencil' />          
+            </div>
+            <div class="color green">
+                <img src='./assets/pencil.svg' alt='pencil' />          
+            </div>
+            <div class="color yellow">
+                <img src='./assets/pencil.svg' alt='pencil' />           
+            </div>
+
+            <input type="color" class="color-picker">
+            <input type="range" min="1" max="100" class="range">
+            <button type='button' class='bg'>background</button>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
